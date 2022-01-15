@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <img class="collab" src="images/collaborating.jpg">
+            <div class="logo"> 
+                <header>Welcome</header>       
+                <h1>Teamlytical</h1>
+                <p><em>A collaborative platform built for efficiency.</em></p>
+                <!-- <button><a href="signup.html">Get Started</a></button> -->
+                <button><a href="./signup.php">Get Started</a></button>
+                <div id="else">
+                    <li><em>Or scroll to sign into an existing account.</em></li>
+                </div>
+
+            </div>
+        </div>
+        <!--This contains the menu for user navigation.-->
+        
+        <div class='split'>
+            <div class='right'>
+                <div id="login">
+                    <h2>Welcome Back.</h2>
+                    <p>Login with your username and password.</p>
+                    <form action="login.php" method="post">
+                        <div class='input_username'>
+                            <label for="username">Username</label>
+                            <input id="username" name="username" type="username">
+                        </div>
+                        <div class='input_password'>
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password">
+
+                        </div>
+                        <div class='forgot_password'>
+                            <a href>Forgot password?</a>
+                        </div>
+                        <button class='Button' type='submit'><a href="profilepage.html">Login</a></button>
+                    </form>
+                </div>
+                <div id="menuandpicture">
+                    
+                    <div id="farright">
+                        <img src="images/1.png" style="width:200px; height: 300px">
+                    </div>
+                </div>
+            </div>
+            <div class='left'>
+                <img src="images/collab3.jpg" alt="Group of collaborating group members." style="width:460px;height:250px;" class="floatLeft">
+                <div id='information'>
+                    <h3><em>Welcome to Teamlytical.</em></h3>
+                    <p>Introduce yourself. Make posts. Explore the community. Indicate interest. Build a team of collaborators fit for your project's needs. </p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

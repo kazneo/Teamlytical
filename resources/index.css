@@ -1,0 +1,31 @@
+/* CSS for Index Page */ 
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#menu {
+    float: right;
+    list-style-type: none;
+    border: 1px solid black;
+    width: 240px;
+}
+#menu li {
+    display: inline;
+}
+h1 {
+    text-align: center;
+    margin-left: 300px;
+}
+#login {
+    float: right;
+    list-style-type: none;
+    border: 5px solid black;
+    padding: 20px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+#buttons li {
+    display: inline;
+}
+#information {
+    margin-left: 50px;
+}
